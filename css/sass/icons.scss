@@ -1,0 +1,50 @@
+.fa.fa-facebook::after {
+  content: "\f09a";
+  font-family: "FontAwesome";
+}
+
+.fa.fa-instagram::after {
+  content: "\f16d";
+  font-family: "FontAwesome";
+}
+
+.fa.fa-whatsapp::after {
+  content: "\f232";
+  font-family: "FontAwesome";
+}
+
+.fa.fa-phone::after {
+  content: "\f095";
+  font-family: "FontAwesome";
+  transform: rotateX(180deg);
+}
+
+.fa.fa-clock-o::after {
+  content: "\f017";
+  font-family: "FontAwesome";
+}
+
+.fa.fa-home::after {
+  content: "\f015";
+  font-family: "FontAwesome";
+}
+
+footer .information-links a::before {
+  content: "\f178";
+  font-family: "FontAwesome";
+}
+
+.fa.fa-map-marker::after {
+  content: "\f041";
+  font-family: "FontAwesome";
+}
+
+.fa.fa-envelope::after {
+  content: "\f0e0";
+  font-family: "FontAwesome";
+}
+
+.fa-heart::before {
+  content: "\f004";
+  font-family: "FontAwesome";
+}

@@ -1,0 +1,296 @@
+.section-slider {
+    width: 100%;
+
+  .slider {
+    list-style-type: none;
+    margin: auto;
+
+    .slide {
+      width: 100%;
+
+      img {
+        width: inherit;
+      }
+    }
+  }
+
+  .slick-prev, .slick-next {
+      z-index: 2 !important;
+
+      &:before {
+      color: $main;
+      }
+  }
+
+  .slick-prev {
+    left: 35px !important;
+    @include smScreens {
+      left: 10px !important;
+    }
+  }
+
+  .slick-next {
+    right: 35px !important;
+    @include smScreens {
+      right: 10px !important;
+    }
+  }
+}
+
+.section-promotion {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  .promo {
+
+    .img-container {
+      img {
+        width: 100%;
+      }
+    }
+
+    h3 {
+      color: lighten($black, 5%);
+      text-transform: uppercase;
+      font-family: oswald, sans-serif;
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: 0.1rem;
+    }
+
+    .description {
+        height: 6rem;
+    }
+
+    .link {
+      margin-top: 1.5rem;
+      background-color: $main;
+      border-radius: 0 !important;
+      color: $white;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: owsald, sans-serif;
+      letter-spacing: 0.1rem;
+      padding: 0.5rem 2rem;
+
+      &:visited {
+        color: $white;
+      }
+    }
+
+  }
+}
+
+.section-contact {
+  background-image: url('http://via.placeholder.com/1900x700');
+  background-repeat: no-repeat;
+  height: 700px;
+  background-size: cover;
+  position: relative;
+
+  .contact-blue-bg {
+    height: inherit;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: $second;
+    opacity: 0.95;
+    z-index: 1;
+
+    &::before {
+      position: absolute;
+      content: "";
+      border-style: solid;
+      border-width: 350px 9rem 350px 9rem;
+      border-color: $second $second transparent transparent;
+      position: absolute;
+      left: -18rem;
+    }
+  }
+
+  .container {
+
+    .contact-content {
+      padding-top: 6rem;
+      z-index: 2;
+
+      h3 {
+        color: $white;
+        position: relative;
+
+        &::before, &::after {
+          content: "\\\\";
+          color: $main;
+          position: absolute;
+          left: -50px;
+          font-size: 27px;
+          letter-spacing: -3px;
+          display: inline-block;
+          font-weight: bold;
+          font-family: "Times New Roman", "Bitstream Charter", Times, serif;
+        }
+
+        &::after {
+          left: initial;
+          right: -50px;
+        }
+      }
+
+      .phrase {
+        color: $gray5;
+        margin-top: 2.5rem;
+      }
+
+      form {
+        margin-top: 1rem;
+        max-width: calc(100% + 30px);
+
+        ::placeholder {
+          color: $white !important;
+          font-family: Tahoma, sans-serif;
+        }
+
+        &>div:nth-child(odd) {
+          padding: 0 0.5rem 0.5rem 0 !important;
+        }
+
+        &>div:nth-child(even) {
+          padding: 0 0 0.5rem 0 !important;
+        }
+
+        div {
+          input {
+            background-color: rgba(255,255,255,0.3);
+            border-color: transparent;
+            padding: 1rem 1rem;
+            transition: opacity 0.3s ease-out;
+            font-size: 0.9rem;
+            color: $white;
+
+            &:focus {
+              background-color: $white;
+              transition: background-color 0.3s ease-out;
+              color: $gray5;
+              font-size: 0.9rem;
+              outline: none;
+            }
+
+            &:placeholder {
+              color: $white !important;
+            }
+          }
+        }
+
+        textarea {
+          background-color: rgba(255,255,255,0.3);
+          border-color: transparent;
+          padding: 1rem 1rem;
+          transition: opacity 0.3s ease-out;
+          color: $white;
+          font-size: 0.9rem;
+
+          &:focus {
+            background-color: $white;
+            transition: background-color 0.3s ease-out;
+            color: $gray5;
+            font-size: 0.9rem;
+            outline: none;
+          }
+        }
+
+        button {
+          margin-top: 1.5rem;
+          background-color: $main;
+          border-radius: 0 !important;
+          color: $white;
+          font-weight: bold;
+          text-transform: uppercase;
+          font-family: owsald, sans-serif;
+          letter-spacing: 0.1rem;
+          padding: 0.5rem 2rem;
+
+          &:hover {
+            background-color: $second;
+          }
+        }
+      }
+    }
+  }
+}
+
+.section-us {
+  padding: 5rem 0;
+
+  .img-container {
+    padding: 0 4rem 0 0;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .description {
+
+    h3 {
+      margin: 3rem 0;
+    }
+
+    p {
+      color: $gray6;
+    }
+
+    button {
+      margin-top: 1.5rem;
+      background-color: $main;
+      border-radius: 0 !important;
+      color: $white;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: owsald, sans-serif;
+      letter-spacing: 0.1rem;
+      padding: 0.5rem 2rem;
+    }
+  }
+}
+
+.section-clients {
+  background-color: $gray2;
+  padding: 5rem 0;
+
+  h2 {
+    margin-bottom: 5rem;
+  }
+
+  ul {
+    display: flex;
+
+    li.dh-container {
+      position: relative;
+      overflow: hidden;
+      flex: 1;
+      min-width: 10rem;
+      margin: 0 1rem 0 0;
+
+      &:last-of-type {
+        padding: auto auto auto auto;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      .dh-overlay {
+        position: absolute;
+        top: -100%;
+        background: rgba(52,73,94,.65);
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        line-height: 90px;
+        color: #fff;
+      }
+    }
+  }
+
+}

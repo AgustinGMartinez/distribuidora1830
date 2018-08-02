@@ -1,0 +1,173 @@
+footer {
+  background-color: $second;
+  padding-top: 4rem;
+  position: relative;
+
+  .section-title {
+    border-bottom: 1px solid $gray6;
+    padding-left: 0 !important;
+    margin-bottom: 2rem;
+
+    h3 {
+      color: $white;
+      padding: 0.5rem 1rem;
+      line-height: 2rem;
+      background: $main;
+      display: inline-block;
+      text-transform: uppercase;
+      font-family: oswald, sans-serif;
+      letter-spacing: 1.2px;
+      font-size: 1.3rem;
+      position: relative;
+      height: 3rem;
+      margin: 0 !important;
+
+      &::after {
+        content: "";
+        border-style: solid;
+        border-width: 1.5rem 1rem 1.5rem 1rem;
+        border-color: transparent transparent $main $main;
+        position: absolute;
+        top: 0;
+        right: -2rem;
+      }
+    }
+  }
+
+  .footer-logo {
+    height: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .footer-description {
+    color: $gray4;
+    font-size: 1rem;
+  }
+
+  .footer-social {
+    color: $gray4;
+    font-size: 1.3rem;
+
+    li:first-of-type {
+      padding-left: 0 !important;
+    }
+
+    span:hover {
+      color: $main;
+    }
+  }
+
+  .information-links {
+    a {
+      color: $gray4;
+      transition: all 0.5s ease;
+      display: inline-block;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+
+      &:visited {
+        color: $gray4;
+      }
+
+      &::before {
+        margin-right: 1rem;
+      }
+
+      &:hover {
+        color: $main;
+        margin-left: 1.5rem;
+        transition: all 0.5s ease;
+      }
+    }
+  }
+
+  .office-body {
+    p {
+      color: $gray4;
+      position: relative;
+      margin-left: 2rem;
+
+      span {
+        position: absolute;
+        left: -2rem;
+      }
+
+      a, a:visited {
+        color: $gray4;
+      }
+    }
+  }
+
+  .footer-copyright {
+
+    .love {
+      margin-top: 4.5rem;
+      margin-bottom: 1.3rem;
+      font-size: 0.9rem;
+      z-index: 10;
+
+      @include smScreens {
+        margin-bottom: 0;
+        margin-top: 5rem;
+      }
+
+      p {
+        color: $gray1;
+      }
+
+      a {
+        color: $white;
+
+        &:visited {
+          color: $white;
+        }
+      }
+    }
+
+    .rights {
+      @extend .love;
+
+      @include smScreens {
+        margin-top: 1rem !important;
+      }
+
+      p {
+        color: $gray4;
+
+        @include mdScreens {
+          color: $white;
+        }
+      }
+    }
+  }
+
+  .copy-bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    .red {
+      background-color: $main;
+      height: 6rem;
+
+      @include mdScreens {
+        height: 8.5rem;
+      }
+
+      &::after {
+        content: "";
+        border-style: solid;
+        border-width: 3rem 1.5rem 3rem 1.5rem;
+        border-color: transparent transparent $main $main;
+        position: absolute;
+        top: 0;
+        right: -3rem;
+
+        @include mdScreens {
+          border-width: 4.25rem 3.5rem 4.25rem 3.5rem;
+          right: -7rem;
+        }
+      }
+    }
+  }
+}
