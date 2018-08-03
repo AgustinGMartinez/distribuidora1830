@@ -1,9 +1,18 @@
 .contact-page {
   background-color: #ffffff;
 
+  @include smScreens {
+    background-color: $white;
+  }
+
   .contact-main {
     padding-top: 5rem;
     padding-bottom: 5rem;
+
+    @include smScreens {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
 
     .contact-left {
       padding: 1rem;
@@ -77,6 +86,10 @@
 
         &>div:nth-child(odd) {
           padding: 0 0.5rem 0.5rem 0 !important;
+
+          @include smScreens {
+            padding: 0 0 0.5rem 0 !important;
+          }
         }
 
         &>div:nth-child(even) {

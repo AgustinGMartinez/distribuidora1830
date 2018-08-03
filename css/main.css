@@ -303,6 +303,10 @@ footer .information-links a::before {
 .section-promotion {
   padding-top: 4rem;
   padding-bottom: 4rem; }
+  @media only screen and (max-width: 1200px) {
+    .section-promotion {
+      padding-top: 2rem;
+      padding-bottom: 2rem; } }
   .section-promotion .promo .img-container img {
     width: 100%; }
   .section-promotion .promo h3, .section-promotion .promo h1 {
@@ -312,12 +316,25 @@ footer .information-links a::before {
     font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 0.1rem; }
+    @media only screen and (max-width: 1200px) {
+      .section-promotion .promo h3, .section-promotion .promo h1 {
+        text-align: center; } }
   .section-promotion .promo .description {
     height: 6rem; }
+    @media only screen and (max-width: 1200px) {
+      .section-promotion .promo .description {
+        height: 5rem;
+        margin-bottom: 2rem !important; } }
   .section-promotion .promo a {
     position: relative;
     overflow: hidden;
-    border-radius: 0; }
+    border-radius: 0;
+    margin-left: auto;
+    margin-right: auto; }
+    @media only screen and (max-width: 1200px) {
+      .section-promotion .promo a {
+        margin-bottom: 2rem;
+        width: 100%; } }
     .section-promotion .promo a .red, .section-promotion .promo a .gray {
       position: absolute; }
     .section-promotion .promo a .red, .section-promotion .promo a .gray, .section-promotion .promo a .fake {
@@ -331,6 +348,9 @@ footer .information-links a::before {
       letter-spacing: 0.1rem;
       padding: 0.5rem 2rem;
       transition: transform 0.4s ease; }
+      @media only screen and (max-width: 1200px) {
+        .section-promotion .promo a .red, .section-promotion .promo a .gray, .section-promotion .promo a .fake {
+          width: 100%; } }
       .section-promotion .promo a .red:visited, .section-promotion .promo a .gray:visited, .section-promotion .promo a .fake:visited {
         color: #f8f8f8; }
       .section-promotion .promo a .red span, .section-promotion .promo a .gray span, .section-promotion .promo a .fake span {
@@ -362,6 +382,9 @@ footer .information-links a::before {
     background-color: #232331;
     opacity: 0.95;
     z-index: 1; }
+    @media only screen and (max-width: 800px) {
+      .section-contact .contact-blue-bg {
+        width: 100%; } }
     .section-contact .contact-blue-bg::before {
       position: absolute;
       content: "";
@@ -370,12 +393,26 @@ footer .information-links a::before {
       border-color: #232331 #232331 transparent transparent;
       position: absolute;
       left: -18rem; }
+      @media only screen and (max-width: 800px) {
+        .section-contact .contact-blue-bg::before {
+          display: none; } }
   .section-contact .container .contact-content {
     padding-top: 6rem;
     z-index: 2; }
+    @media only screen and (max-width: 1200px) {
+      .section-contact .container .contact-content {
+        padding-top: 0rem;
+        padding-left: 2rem !important; } }
     .section-contact .container .contact-content h3 {
       color: #f8f8f8;
       position: relative; }
+      @media only screen and (max-width: 1200px) {
+        .section-contact .container .contact-content h3 {
+          padding-top: 3rem;
+          text-align: center; } }
+      @media only screen and (max-width: 480px) {
+        .section-contact .container .contact-content h3 {
+          padding-top: 2.5rem; } }
       .section-contact .container .contact-content h3::before, .section-contact .container .contact-content h3::after {
         content: "\\\\";
         color: #ca1f26;
@@ -392,14 +429,23 @@ footer .information-links a::before {
     .section-contact .container .contact-content .phrase {
       color: #777777;
       margin-top: 2.5rem; }
+      @media only screen and (max-width: 480px) {
+        .section-contact .container .contact-content .phrase {
+          margin-top: 1.5rem; } }
     .section-contact .container .contact-content form {
       margin-top: 1rem;
       max-width: calc(100% + 30px); }
+      @media only screen and (max-width: 1200px) {
+        .section-contact .container .contact-content form {
+          padding-left: 15px !important; } }
       .section-contact .container .contact-content form ::placeholder {
         color: #f8f8f8 !important;
         font-family: Tahoma, sans-serif; }
       .section-contact .container .contact-content form > div:nth-child(odd) {
         padding: 0 0.5rem 0.5rem 0 !important; }
+        @media only screen and (max-width: 1200px) {
+          .section-contact .container .contact-content form > div:nth-child(odd) {
+            padding: 0 0 0.5rem 0 !important; } }
       .section-contact .container .contact-content form > div:nth-child(even) {
         padding: 0 0 0.5rem 0 !important; }
       .section-contact .container .contact-content form div input {
@@ -441,6 +487,9 @@ footer .information-links a::before {
         letter-spacing: 0.1rem;
         padding: 0.5rem 2rem;
         display: inline-block; }
+        @media only screen and (max-width: 1200px) {
+          .section-contact .container .contact-content form button {
+            margin-top: 1rem; } }
         .section-contact .container .contact-content form button:hover {
           background-color: #232331; }
         .section-contact .container .contact-content form button:last-of-type {
@@ -451,18 +500,33 @@ footer .information-links a::before {
 
 .section-us {
   padding: 5rem 0; }
+  @media only screen and (max-width: 1200px) {
+    .section-us {
+      padding: 3rem 0 3rem 0; } }
+  @media only screen and (max-width: 480px) {
+    .section-us {
+      padding: 0 0 3rem 0; } }
   .section-us .img-container {
-    padding: 0 4rem 0 0; }
+    padding: 0 5rem 0 0; }
+    @media only screen and (max-width: 1200px) {
+      .section-us .img-container {
+        padding: 0; } }
     .section-us .img-container img {
       width: 100%; }
   .section-us .description h3 {
-    margin: 3rem 0; }
+    margin: 2rem 0; }
+    @media only screen and (max-width: 800px) {
+      .section-us .description h3 {
+        text-align: center; } }
   .section-us .description p {
     color: #555555; }
   .section-us .description a {
     position: relative;
     overflow: hidden;
     border-radius: 0; }
+    @media only screen and (max-width: 800px) {
+      .section-us .description a {
+        width: 100%; } }
     .section-us .description a .red, .section-us .description a .gray {
       position: absolute; }
     .section-us .description a .red, .section-us .description a .gray, .section-us .description a .fake {
@@ -476,6 +540,9 @@ footer .information-links a::before {
       letter-spacing: 0.1rem;
       padding: 0.5rem 2rem;
       transition: transform 0.4s ease; }
+      @media only screen and (max-width: 800px) {
+        .section-us .description a .red, .section-us .description a .gray, .section-us .description a .fake {
+          width: 100%; } }
       .section-us .description a .red:visited, .section-us .description a .gray:visited, .section-us .description a .fake:visited {
         color: #f8f8f8; }
       .section-us .description a .red span, .section-us .description a .gray span, .section-us .description a .fake span {
@@ -495,6 +562,9 @@ footer .information-links a::before {
 .section-clients {
   background-color: #eeeeee;
   padding: 5rem 0; }
+  @media only screen and (max-width: 1200px) {
+    .section-clients {
+      padding: 5rem 0 2rem; } }
   .section-clients h2 {
     display: inline-block;
     margin-bottom: 5rem;
@@ -514,12 +584,25 @@ footer .information-links a::before {
       right: -50px; }
   .section-clients ul {
     display: flex; }
+    @media only screen and (max-width: 1200px) {
+      .section-clients ul {
+        justify-content: space-around; } }
+    @media only screen and (max-width: 480px) {
+      .section-clients ul {
+        justify-content: flex-start; } }
     .section-clients ul li.dh-container {
       position: relative;
       overflow: hidden;
       flex: 1;
       min-width: 10rem;
       margin: 0 1rem 0 0; }
+      @media only screen and (max-width: 1200px) {
+        .section-clients ul li.dh-container {
+          max-width: 100px;
+          margin: 0; } }
+      @media only screen and (max-width: 480px) {
+        .section-clients ul li.dh-container {
+          max-width: initial; } }
       .section-clients ul li.dh-container:last-of-type {
         padding: auto auto auto auto; }
       .section-clients ul li.dh-container img {
@@ -537,6 +620,13 @@ footer .information-links a::before {
 .us-page .us-section {
   padding-top: 5rem;
   padding-bottom: 5rem; }
+  @media only screen and (max-width: 800px) {
+    .us-page .us-section {
+      padding-top: 2rem;
+      padding-bottom: 2rem; } }
+  @media only screen and (max-width: 800px) {
+    .us-page .us-section h3 {
+      margin: 2rem auto; } }
   .us-page .us-section h3::before {
     content: "\\\\\\";
     margin-right: 20px;
@@ -550,6 +640,9 @@ footer .information-links a::before {
     position: relative;
     overflow: hidden;
     border-radius: 0; }
+    @media only screen and (max-width: 800px) {
+      .us-page .us-section a {
+        margin-top: 1rem; } }
     .us-page .us-section a .red, .us-page .us-section a .gray {
       position: absolute; }
     .us-page .us-section a .red, .us-page .us-section a .gray, .us-page .us-section a .fake {
@@ -586,6 +679,9 @@ footer .information-links a::before {
       position: relative;
       overflow: hidden;
       border-radius: 0; }
+      @media only screen and (max-width: 800px) {
+        .products-page .products-top a {
+          width: 100%; } }
       .products-page .products-top a .red, .products-page .products-top a .gray {
         position: absolute; }
       .products-page .products-top a .red, .products-page .products-top a .gray, .products-page .products-top a .fake {
@@ -601,7 +697,8 @@ footer .information-links a::before {
         transition: transform 0.4s ease; }
         @media only screen and (max-width: 800px) {
           .products-page .products-top a .red, .products-page .products-top a .gray, .products-page .products-top a .fake {
-            white-space: normal !important; } }
+            white-space: normal !important;
+            width: 100%; } }
         .products-page .products-top a .red:visited, .products-page .products-top a .gray:visited, .products-page .products-top a .fake:visited {
           color: #f8f8f8; }
         .products-page .products-top a .red span, .products-page .products-top a .gray span, .products-page .products-top a .fake span {
@@ -619,12 +716,18 @@ footer .information-links a::before {
         transform: translateX(0); }
   .products-page .products-catalog-head {
     padding-top: 1rem; }
+    @media only screen and (max-width: 800px) {
+      .products-page .products-catalog-head {
+        padding-top: 2.5rem; } }
     .products-page .products-catalog-head h4 {
       color: #555555; }
   .products-page .products-catalog-body {
     padding-top: 4rem;
     padding-bottom: 4rem;
     position: relative; }
+    @media only screen and (max-width: 800px) {
+      .products-page .products-catalog-body {
+        padding-bottom: 2rem; } }
     .products-page .products-catalog-body .product {
       padding: 1rem;
       position: relative; }
@@ -653,9 +756,16 @@ footer .information-links a::before {
 
 .contact-page {
   background-color: #ffffff; }
+  @media only screen and (max-width: 800px) {
+    .contact-page {
+      background-color: #f8f8f8; } }
   .contact-page .contact-main {
     padding-top: 5rem;
     padding-bottom: 5rem; }
+    @media only screen and (max-width: 800px) {
+      .contact-page .contact-main {
+        padding-top: 2rem;
+        padding-bottom: 2rem; } }
     .contact-page .contact-main .contact-left {
       padding: 1rem; }
       .contact-page .contact-main .contact-left h3 {
@@ -706,6 +816,9 @@ footer .information-links a::before {
           font-family: Tahoma, sans-serif; }
         .contact-page .contact-main .contact-right form > div:nth-child(odd) {
           padding: 0 0.5rem 0.5rem 0 !important; }
+          @media only screen and (max-width: 800px) {
+            .contact-page .contact-main .contact-right form > div:nth-child(odd) {
+              padding: 0 0 0.5rem 0 !important; } }
         .contact-page .contact-main .contact-right form > div:nth-child(even) {
           padding: 0 0 0.5rem 0 !important; }
         .contact-page .contact-main .contact-right form div input {
@@ -799,6 +912,9 @@ h2 {
     margin-bottom: 5rem;
     font-size: 3.2rem;
     font-weight: 600; }
+    @media only screen and (max-width: 800px) {
+      .head h1 {
+        margin-left: 1rem; } }
   .head .navigator {
     background-color: #232331;
     display: inline-block;

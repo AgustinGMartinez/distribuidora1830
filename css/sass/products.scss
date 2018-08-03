@@ -9,6 +9,10 @@
       overflow: hidden;
       border-radius: 0;
 
+      @include smScreens {
+        width: 100%;
+      }
+
       .red, .gray {
         position: absolute;
       }
@@ -27,6 +31,7 @@
 
         @include smScreens {
           white-space: normal !important;
+          width: 100%;
         }
 
         &:visited {
@@ -62,6 +67,10 @@
   .products-catalog-head {
     padding-top: 1rem;
 
+    @include smScreens {
+      padding-top: 2.5rem;
+    }
+
     h4 {
       color: $gray6;
     }
@@ -71,6 +80,10 @@
     padding-top: 4rem;
     padding-bottom: 4rem;
     position: relative;
+
+    @include smScreens {
+      padding-bottom: 2rem;
+    }
 
     .product {
       padding: 1rem;

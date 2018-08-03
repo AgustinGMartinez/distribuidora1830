@@ -13,7 +13,7 @@
   <div class="contact-main">
     <div class="container">
       <div class="row">
-        <div class="contact-left col-md-3">
+        <div class="contact-left col-lg-3">
           <h3>Contacto</h3>
           <p><span class="fa fa-map-marker"></span> 33 orientales 1828, Boedo, CABA.</p>
           <p><span class="fa fa-phone"></span><a href="tel:+541122895991"> +54 (11) 2289 5991</a></p>
@@ -21,7 +21,7 @@
           <p><span class="fa fa-envelope"></span><a href="mailto:pedidos1830@gmail.com">pedidos1830@gmail.com</a> </p>
           <p><span class="fa fa-clock-o"></span> Lun - Sab: 8AM - 8PM </p>
         </div>
-        <div class="contact-right col-md-9">
+        <div class="contact-right col-lg-9">
           <h3>Formulario de contacto</h3>
           <p class="phrase">We love to listen and we are eagerly waiting to talk to you regarding your project. Get in touch with us if you have any queries and we will get back to you as soon as possible.</p>
           <form method="post" id="contact-form" class="row">

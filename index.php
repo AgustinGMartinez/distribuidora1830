@@ -53,7 +53,7 @@
     <div class="contact-blue-bg"></div>
     <div class="container">
       <div class="row">
-        <div class="contact-content col-md-6 offset-md-6 row">
+        <div class="contact-content col-12 col-md-6 offset-md-6 row">
           <h3 class="mx-auto">Pedí tu cotización</h3>
           <p class="phrase text-center">We love to listen and we are eagerly waiting to talk to you regarding your project. Get in touch with us if you have any queries and we will get back to you as soon as possible.</p>
           <form method="post" id="contact-form" class="row">

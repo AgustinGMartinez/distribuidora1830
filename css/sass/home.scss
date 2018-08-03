@@ -41,6 +41,11 @@
   padding-top: 4rem;
   padding-bottom: 4rem;
 
+  @include mdScreens {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .promo {
 
     .img-container {
@@ -56,16 +61,32 @@
       font-size: 1.5rem;
       font-weight: bold;
       letter-spacing: 0.1rem;
+
+      @include mdScreens {
+        text-align: center;
+      }
     }
 
     .description {
-        height: 6rem;
+      height: 6rem;
+
+      @include mdScreens {
+        height: 5rem;
+        margin-bottom: 2rem !important;
+      }
     }
 
     a {
       position: relative;
       overflow: hidden;
       border-radius: 0;
+      margin-left: auto;
+      margin-right: auto;
+
+      @include mdScreens {
+        margin-bottom: 2rem;
+        width: 100%;
+      }
 
       .red, .gray {
         position: absolute;
@@ -82,6 +103,10 @@
         letter-spacing: 0.1rem;
         padding: 0.5rem 2rem;
         transition: transform 0.4s ease;
+
+        @include mdScreens {
+          width: 100%;
+        }
 
         &:visited {
           color: $white;
@@ -131,6 +156,10 @@
     opacity: 0.95;
     z-index: 1;
 
+    @include smScreens {
+      width: 100%;
+    }
+
     &::before {
       position: absolute;
       content: "";
@@ -139,6 +168,10 @@
       border-color: $second $second transparent transparent;
       position: absolute;
       left: -18rem;
+
+      @include smScreens {
+        display: none;
+      }
     }
   }
 
@@ -148,9 +181,24 @@
       padding-top: 6rem;
       z-index: 2;
 
+      @include mdScreens {
+        padding-top: 0rem;
+        padding-left: 2rem !important;
+      }
+
       h3 {
         color: $white;
         position: relative;
+
+        @include mdScreens {
+          padding-top: 3rem;
+          text-align: center;
+        }
+
+
+        @include dfScreens {
+          padding-top: 2.5rem;
+        }
 
         &::before, &::after {
           content: "\\\\";
@@ -173,11 +221,19 @@
       .phrase {
         color: $gray5;
         margin-top: 2.5rem;
+
+        @include dfScreens {
+        margin-top: 1.5rem;
+        }
       }
 
       form {
         margin-top: 1rem;
         max-width: calc(100% + 30px);
+
+        @include mdScreens {
+          padding-left: 15px !important;
+        }
 
         ::placeholder {
           color: $white !important;
@@ -186,6 +242,10 @@
 
         &>div:nth-child(odd) {
           padding: 0 0.5rem 0.5rem 0 !important;
+
+          @include mdScreens {
+            padding: 0 0 0.5rem 0 !important;
+          }
         }
 
         &>div:nth-child(even) {
@@ -244,6 +304,10 @@
           padding: 0.5rem 2rem;
           display: inline-block;
 
+          @include mdScreens {
+            margin-top: 1rem;
+          }
+
           &:hover {
             background-color: $second;
           }
@@ -265,8 +329,20 @@
 .section-us {
   padding: 5rem 0;
 
+  @include mdScreens {
+    padding: 3rem 0 3rem 0;
+  }
+
+  @include dfScreens {
+    padding: 0 0 3rem 0;
+  }
+
   .img-container {
-    padding: 0 4rem 0 0;
+    padding: 0 5rem 0 0;
+
+    @include mdScreens {
+      padding: 0;
+    }
 
     img {
       width: 100%;
@@ -276,7 +352,11 @@
   .description {
 
     h3 {
-      margin: 3rem 0;
+      margin: 2rem 0;
+
+      @include smScreens {
+        text-align: center;
+      }
     }
 
     p {
@@ -287,6 +367,10 @@
       position: relative;
       overflow: hidden;
       border-radius: 0;
+
+      @include smScreens {
+        width: 100%;
+      }
 
       .red, .gray {
         position: absolute;
@@ -303,6 +387,10 @@
         letter-spacing: 0.1rem;
         padding: 0.5rem 2rem;
         transition: transform 0.4s ease;
+
+        @include smScreens {
+          width: 100%;
+        }
 
         &:visited {
           color: $white;
@@ -339,6 +427,10 @@
   background-color: $gray2;
   padding: 5rem 0;
 
+  @include mdScreens {
+    padding: 5rem 0 2rem;
+  }
+
   h2 {
     display: inline-block;
     margin-bottom: 5rem;
@@ -365,12 +457,29 @@
   ul {
     display: flex;
 
+    @include mdScreens {
+      justify-content: space-around;
+    }
+
+    @include dfScreens {
+      justify-content: flex-start;
+    }
+
     li.dh-container {
       position: relative;
       overflow: hidden;
       flex: 1;
       min-width: 10rem;
       margin: 0 1rem 0 0;
+
+      @include mdScreens {
+        max-width: 100px;
+          margin: 0;
+      }
+
+      @include dfScreens {
+        max-width: initial;
+      }
 
       &:last-of-type {
         padding: auto auto auto auto;
@@ -392,5 +501,4 @@
       }
     }
   }
-
 }
