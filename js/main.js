@@ -2,12 +2,10 @@ $(document).ready(function(){
   activateLinks();
   $('#submitContactForm').on("click", submitContactForm);
 
-  // $('#nav-icon2').parent().click(function(){
-	// 	$('#nav-icon2').toggleClass('open');
-  // });
-  // $('#nav-icon3').click(function(){
-  //   $(this).toggleClass('open');
-  // });
+  $('#nav-icon2').parent().click(function(){
+		$('#nav-icon2').toggleClass('open');
+    $('.menu-mobile-dropdown').slideToggle();
+  });
 
   $("html").easeScroll({
       frameRate: 60,

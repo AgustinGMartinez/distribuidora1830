@@ -60,6 +60,7 @@ font-style : normal;
 @import 'us';
 @import 'products';
 @import 'contact';
+@import 'hamburguer';
 
 ul {
   list-style: none !important;
@@ -80,6 +81,12 @@ html, body, .wrapper {
 body {
   font-family: "Open Sans";
   background-color: $white;
+}
+
+.wrapper {
+  @include smScreens {
+    padding-top: 6rem;
+  }
 }
 
 h1,h2,h3,h4,h5,h6 {
