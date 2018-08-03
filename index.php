@@ -15,7 +15,7 @@
           <div class="img-container">
             <img src="http://via.placeholder.com/800x600" alt="servicio precios catalogo 1830">
           </div>
-          <h3 class="title my-4">Productos gastrónomicos</h3>
+          <h1 class="title my-4">Productos gastrónomicos</h1>
           <p class="description text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem dolores fugit et ducimus culpa nulla, temporibus quod soluta corrupti iure.
           </p>
         </div>
@@ -26,7 +26,11 @@
           <h3 class="title my-4">Catálogo</h3>
           <p class="description text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab molestias quae, sequi. Et cumque dolores odio, placeat blanditiis ratione accusamus!
           </p>
-          <a href="productos.php" class="btn link">Ver catálogo</a>
+          <a href="productos.php" class="btn p-0">
+            <button class="btn link gray">Ver catálogo</button>
+            <button class="btn link red">Ver catálogo</button>
+            <button class="btn link fake">Ver catálogo</button>
+          </a>
         </div>
         <div class="promo col-md-4">
           <div class="img-container">
@@ -35,7 +39,11 @@
           <h3 class="title my-4">Lista de precios</h3>
           <p class="description text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio possimus impedit, fugit, est pariatur voluptatum consequuntur aspernatur at exercitationem molestias.
           </p>
-          <a href="lista.xlsx" class="btn link" download="Lista de precios 1830 <?php echo date('d-m-Y') ?>">Descargar</a>
+          <a href="lista.xlsx" class="btn p-0" download="Lista de precios 1830 <?php echo date('d-m-Y') ?>">
+            <button class="btn link gray">Descargar <span class="fa fa-download"></span></button>
+            <button class="btn link red">Descargar <span class="fa fa-download"></span></button>
+            <button class="btn link fake">Descargar <span class="fa fa-download"></span></button>
+          </a>
         </div>
       </div>
     </div>
@@ -53,7 +61,7 @@
             <div class="col-md-6"><input name="subject" type="text" class="w-100" required placeholder="Asunto..."></div>
             <div class="col-md-6"><input name="email" type="email" class="w-100" required placeholder="Tu email..."></div>
             <div class="col-md-6"><input name="phone" type="text" class="w-100" placeholder="Teléfono... (opcional)"></div>
-            <textarea name="message" rows="4" cols="80" placeholder="Mensaje..."></textarea>
+            <textarea name="message" rows="4" class="col-12" placeholder="Mensaje..."></textarea>
             <button class="btn d-inline-block mx-auto">Enviar</button>
           </form>
         </div>
@@ -70,15 +78,19 @@
         <div class="col-md-6 description">
           <h3>¿Por qué elegirnos?</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores vero accusantium, consequatur cumque, maxime magnam mollitia sed at rem velit asperiores aspernatur quas odio a reprehenderit voluptatibus explicabo eum unde ullam ea labore. Eaque, nam quasi. Consequuntur aliquid aspernatur quis deleniti itaque, natus, inventore repellendus atque in dolore expedita fugiat?</p>
-          <button class="btn link more">Ver más</button>
+          <a href="nosotros.php" class="btn p-0">
+            <button class="btn link gray">Ver más</button>
+            <button class="btn link red">Ver más</button>
+            <button class="btn link fake">Ver más</button>
+          </a>
         </div>
       </div>
     </div>
   </div>
 
   <div class="section-clients">
-    <div class="container">
-      <h2 class="text-center">Nuestros clientes</h2>
+    <div class="container text-center">
+      <h2>Nuestros clientes</h2>
       <ul class="row">
         <li class="dh-container">
           <img src="https://via.placeholder.com/200x100" alt="marca comida">

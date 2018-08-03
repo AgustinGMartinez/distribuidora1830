@@ -1,0 +1,70 @@
+.us-page {
+
+  .us-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    h3 {
+
+      &::before {
+        content: "\\\\\\";
+        margin-right: 20px;
+        color: $main;
+        font-size: 2rem;
+        letter-spacing: -3px;
+        display: inline-block;
+        font-weight: bold;
+        font-family: "Times New Roman", "Bitstream Charter", Times, serif;
+      }
+    }
+
+    a {
+      position: relative;
+      overflow: hidden;
+      border-radius: 0;
+
+      .red, .gray {
+        position: absolute;
+      }
+
+      .red, .gray, .fake {
+        background-color: $main;
+        border-radius: 0 !important;
+        color: $white;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: owsald, sans-serif;
+        letter-spacing: 0.01rem;
+        font-size: 0.8rem;
+        padding: 15px 20px 15px 20px;
+        transition: transform 0.4s ease;
+
+        &:visited {
+          color: $white;
+        }
+
+        span {
+          font-size: 1rem;
+          margin-left: 0.5rem;
+        }
+      }
+
+      .gray {
+        background-color: $gray6;
+        transform: translateX(-30%);
+      }
+
+      .fake {
+        opacity: 0;
+      }
+
+      &:hover .red {
+        transform: translateX(100%);
+      }
+
+      &:hover .gray {
+        transform: translateX(0);
+      }
+    }
+  }
+}

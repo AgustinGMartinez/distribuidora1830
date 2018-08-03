@@ -1,0 +1,112 @@
+.products-page {
+  background-color: #ffffff;
+
+  .products-top {
+    padding-top: 1rem;
+
+    a {
+      position: relative;
+      overflow: hidden;
+      border-radius: 0;
+
+      .red, .gray {
+        position: absolute;
+      }
+
+      .red, .gray, .fake {
+        margin-top: 1.5rem;
+        background-color: $main;
+        border-radius: 0 !important;
+        color: $white;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: owsald, sans-serif;
+        letter-spacing: 0.1rem;
+        padding: 0.5rem 2rem;
+        transition: transform 0.4s ease;
+
+        @include smScreens {
+          white-space: normal !important;
+        }
+
+        &:visited {
+          color: $white;
+        }
+
+        span {
+          font-size: 1rem;
+          margin-left: 0.5rem;
+          margin-right: -0.35rem;
+        }
+      }
+
+      .gray {
+        background-color: $gray6;
+        transform: translateX(-30%);
+      }
+
+      .fake {
+        opacity: 0;
+      }
+
+      &:hover .red {
+        transform: translateX(100%);
+      }
+
+      &:hover .gray {
+        transform: translateX(0);
+      }
+    }
+  }
+
+  .products-catalog-head {
+    padding-top: 1rem;
+
+    h4 {
+      color: $gray6;
+    }
+  }
+
+  .products-catalog-body {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    position: relative;
+
+    .product {
+      padding: 1rem;
+      position: relative;
+
+      .discount {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        background-color: $main;
+        color: $white;
+        padding: 0.5rem 1rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        z-index: 2;
+      }
+
+      &:hover .discount {
+        transform: rotateX(360deg);
+        transition: transform 0.4s linear;
+      }
+
+      .img-container {
+        position: relative;
+
+        .price {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          font-style: italic;
+        }
+      }
+
+      h3 {
+        margin-top: 0.5rem;
+      }
+    }
+  }
+}
