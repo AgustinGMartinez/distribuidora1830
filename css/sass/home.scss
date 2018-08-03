@@ -242,9 +242,19 @@
           font-family: owsald, sans-serif;
           letter-spacing: 0.1rem;
           padding: 0.5rem 2rem;
+          display: inline-block;
 
           &:hover {
             background-color: $second;
+          }
+
+          &:last-of-type {
+            background: $second;
+
+            img {
+              vertical-align: sub !important;
+              margin-right: 0.5rem;
+            }
           }
         }
       }

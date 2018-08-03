@@ -67,5 +67,6 @@
 <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
 <script src="js/jquery.easeScroll.js"></script>
 <script src="vendor/jquery-directional-hover/jquery.directional-hover.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" async defer></script>
 <script type="text/javascript" src="js/main.js"></script>
 </html>

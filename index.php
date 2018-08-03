@@ -57,12 +57,13 @@
           <h3 class="mx-auto">Pedí tu cotización</h3>
           <p class="phrase text-center">We love to listen and we are eagerly waiting to talk to you regarding your project. Get in touch with us if you have any queries and we will get back to you as soon as possible.</p>
           <form method="post" id="contact-form" class="row">
-            <div class="col-md-6"><input name="name" type="text" class="w-100" required placeholder="Tu nombre..."></div>
-            <div class="col-md-6"><input name="subject" type="text" class="w-100" required placeholder="Asunto..."></div>
-            <div class="col-md-6"><input name="email" type="email" class="w-100" required placeholder="Tu email..."></div>
-            <div class="col-md-6"><input name="phone" type="text" class="w-100" placeholder="Teléfono... (opcional)"></div>
-            <textarea name="message" rows="4" class="col-12" placeholder="Mensaje..."></textarea>
-            <button class="btn d-inline-block mx-auto">Enviar</button>
+            <div class="col-md-6"><input name="name" id="name" type="text" class="w-100" required placeholder="Tu nombre..."></div>
+            <div class="col-md-6"><input name="subject" id="subject" type="text" class="w-100" required placeholder="Asunto..."></div>
+            <div class="col-md-6"><input name="email" id="email" type="email" class="w-100" required placeholder="Tu email..."></div>
+            <div class="col-md-6"><input name="phone" id="phone" type="text" class="w-100" placeholder="Teléfono... (opcional)"></div>
+            <textarea name="message" id="message" rows="4" class="col-12" placeholder="Mensaje..."></textarea>
+            <button id="submitContactForm" class="btn mx-auto">Enviar</button>
+            <button id="sendingFormSpinner" class="btn mx-auto" style="display: none !important;"><img src="img/spinner.gif" alt="spinner cargando gif" width="20px"> Enviando...</button>
           </form>
         </div>
       </div>

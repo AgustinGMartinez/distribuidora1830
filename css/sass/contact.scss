@@ -130,6 +130,15 @@
           &:hover {
             background-color: $second;
           }
+
+          &:last-of-type {
+            background: $second;
+
+            img {
+              vertical-align: sub !important;
+              margin-right: 0.5rem;
+            }
+          }
         }
       }
     }

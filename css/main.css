@@ -439,9 +439,15 @@ footer .information-links a::before {
         text-transform: uppercase;
         font-family: owsald, sans-serif;
         letter-spacing: 0.1rem;
-        padding: 0.5rem 2rem; }
+        padding: 0.5rem 2rem;
+        display: inline-block; }
         .section-contact .container .contact-content form button:hover {
           background-color: #232331; }
+        .section-contact .container .contact-content form button:last-of-type {
+          background: #232331; }
+          .section-contact .container .contact-content form button:last-of-type img {
+            vertical-align: sub !important;
+            margin-right: 0.5rem; }
 
 .section-us {
   padding: 5rem 0; }
@@ -737,6 +743,11 @@ footer .information-links a::before {
           padding: 0.5rem 2rem; }
           .contact-page .contact-main .contact-right form button:hover {
             background-color: #232331; }
+          .contact-page .contact-main .contact-right form button:last-of-type {
+            background: #232331; }
+            .contact-page .contact-main .contact-right form button:last-of-type img {
+              vertical-align: sub !important;
+              margin-right: 0.5rem; }
 
 ul {
   list-style: none !important; }

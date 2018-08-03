@@ -32,7 +32,7 @@ if ($message !== "" && $email !== "") {
   $email_subject = "Contacto desde la página web 1830";
 
   // Build the email content.
-  $email_body = "Nombre: $nombre\n";
+  $email_body = "Nombre: $name\n";
 	if (isset($phone)) $email_body .= "Telefono: $phone\n";
   $email_body .= "Email: $email\n";
 	$email_body .= "Asunto: $subject\n\n";
@@ -46,7 +46,7 @@ if ($message !== "" && $email !== "") {
   if ($sent){
  		echo json_encode(array("message" => "success"));
  	} else{
- 		echo json_encode(array("message" => "failed"));
+ 		echo json_encode(array("message" => "not sent"));
 	}
 } else {
 	echo json_encode(array("message" => "invalid data"));
