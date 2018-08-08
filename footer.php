@@ -9,7 +9,7 @@
           <img class="h-100" src="img/logo.png" alt="distribuidora 1830 logo">
         </div>
         <p class="footer-description">
-          Transport offers a host of logistic management services and supply chain solutions. We provide innovative solutions with the best people, processes, and technology.
+          Distribuidora 1830 ofrece un servicio de soluciones logísticas y de comercialización de productos para la industria gastronómica. Ofrecemos un servicio con calidad de excelencia para todos nuestros clientes.
         </p>
         <ul class="footer-social">
           <li class="d-inline social px-3"><span class="fa fa-facebook"><span></li>

@@ -1,10 +1,11 @@
+<?php $home = true; ?>
 <?php require('header.php'); ?>
 <main class="index">
   <div class="section-slider">
     <ul class="slider" id="carousel">
-      <li class="slide"><img src="http://via.placeholder.com/1900x700" alt="promocion 1830"></li>
-      <li class="slide"><img src="http://via.placeholder.com/1900x700" alt="promocion 1830"></li>
-      <li class="slide"><img src="http://via.placeholder.com/1900x700" alt="promocion 1830"></li>
+      <li class="slide"><img src="img/s4.jpg" alt="promocion 1830"></li>
+      <li class="slide"><img src="img/s2.jpg" alt="promocion 1830"></li>
+      <li class="slide"><img src="img/s1.jpg" alt="promocion 1830"></li>
     </ul>
   </div>
 
@@ -13,18 +14,18 @@
       <div class="row">
         <div class="promo col-md-4">
           <div class="img-container">
-            <img src="http://via.placeholder.com/800x600" alt="servicio precios catalogo 1830">
+            <img src="img/gondola.jpg" alt="servicio precios catalogo 1830">
           </div>
           <h1 class="title my-4">Productos gastrónomicos</h1>
-          <p class="description text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem dolores fugit et ducimus culpa nulla, temporibus quod soluta corrupti iure.
+          <p class="description text-muted">Comercializamos y distribuimos alimentos secos, refrigerados y congelados para establecimientos gastronómicos.
           </p>
         </div>
         <div class="promo col-md-4">
           <div class="img-container">
-            <img src="http://via.placeholder.com/800x600" alt="servicio precios catalogo 1830">
+            <img src="img/descuento.jpg" alt="servicio precios catalogo 1830">
           </div>
           <h3 class="title my-4">Catálogo</h3>
-          <p class="description text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab molestias quae, sequi. Et cumque dolores odio, placeat blanditiis ratione accusamus!
+          <p class="description text-muted">Conocé y aprovechá nuestro catálogo de ofertas semanales. No te pierdas ninguna de nuestras promociones con importantes descuentos.
           </p>
           <a href="productos.php" class="btn p-0">
             <button class="btn link gray">Ver catálogo</button>
@@ -34,10 +35,10 @@
         </div>
         <div class="promo col-md-4">
           <div class="img-container">
-            <img src="http://via.placeholder.com/800x600" alt="servicio precios catalogo 1830">
+            <img src="img/bussiness.jpg" alt="servicio precios catalogo 1830">
           </div>
           <h3 class="title my-4">Lista de precios</h3>
-          <p class="description text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio possimus impedit, fugit, est pariatur voluptatum consequuntur aspernatur at exercitationem molestias.
+          <p class="description text-muted">Consultá nuestros precios siempre que quieras, para que nunca te pierdas de ninguna de las ofertas te ofrecemos. Nuestros precios son accesibles.
           </p>
           <a href="lista.xlsx" class="btn p-0" download="Lista de precios 1830 <?php echo date('d-m-Y') ?>">
             <button class="btn link gray">Descargar <span class="fa fa-download"></span></button>
@@ -55,7 +56,7 @@
       <div class="row">
         <div class="contact-content col-12 col-md-6 offset-md-6 row">
           <h3 class="mx-auto">Pedí tu cotización</h3>
-          <p class="phrase text-center">We love to listen and we are eagerly waiting to talk to you regarding your project. Get in touch with us if you have any queries and we will get back to you as soon as possible.</p>
+          <p class="phrase text-center">En distribuidora 1830 nos destacamos por nuestro excelente servicio y atención personalizada. Contactá con nosotros a toda hora. Estamos siempre para servirte.</p>
           <form method="post" id="contact-form" class="row">
             <div class="col-md-6"><input name="name" id="name" type="text" class="w-100" required placeholder="Tu nombre..."></div>
             <div class="col-md-6"><input name="subject" id="subject" type="text" class="w-100" required placeholder="Asunto..."></div>
@@ -74,15 +75,16 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 img-container">
-          <img src="http://via.placeholder.com/800x550" alt="distribuidora">
+          <img src="img/logo.png" alt="distribuidora">
         </div>
         <div class="col-md-6 description">
           <h3>¿Por qué elegirnos?</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores vero accusantium, consequatur cumque, maxime magnam mollitia sed at rem velit asperiores aspernatur quas odio a reprehenderit voluptatibus explicabo eum unde ullam ea labore. Eaque, nam quasi. Consequuntur aliquid aspernatur quis deleniti itaque, natus, inventore repellendus atque in dolore expedita fugiat?</p>
+          <p>Nuestra trayectoria, calidad de servicio y atención personalizada son algunos de nuestros principios que nos han hecho crecer exponencialmente y destacarnos por sobre la competencia en los últimos años.</p>
+          <p>A diferencia de otras grandes firmas, <strong>nosotros preferimos ofrecerte una calidad de atención inigualable</strong> poniendo en primer lugar y suma consideración tus necesidades comerciales.</p>
           <a href="nosotros.php" class="btn p-0">
-            <button class="btn link gray">Ver más</button>
-            <button class="btn link red">Ver más</button>
-            <button class="btn link fake">Ver más</button>
+            <button class="btn link gray">Quiero conocerlos más &gt;</button>
+            <button class="btn link red">Quiero conocerlos más &gt;</button>
+            <button class="btn link fake">Quiero conocerlos más &gt;</button>
           </a>
         </div>
       </div>
@@ -93,28 +95,28 @@
     <div class="container text-center">
       <h2>Nuestros clientes</h2>
       <ul class="row">
-        <li class="dh-container">
-          <img src="https://via.placeholder.com/200x100" alt="marca comida">
+        <li class="dh-container has-own-bg">
+          <img src="img/marca1.jpg" alt="marca comida">
           <div class="dh-overlay">El patito feo!</div>
         </li>
         <li class="dh-container">
-          <img src="https://via.placeholder.com/200x100" alt="marca comida">
+          <img src="img/marca2.jpg" alt="marca comida">
           <div class="dh-overlay">El patito lindo!</div>
         </li>
         <li class="dh-container">
-          <img src="https://via.placeholder.com/200x100" alt="marca comida">
+          <img src="img/marca3.png" alt="marca comida">
           <div class="dh-overlay">El patito raro!</div>
         </li>
         <li class="dh-container">
-          <img src="https://via.placeholder.com/200x100" alt="marca comida">
+          <img src="img/marca2.jpg" alt="marca comida">
           <div class="dh-overlay">El patito quejumbroso!</div>
         </li>
         <li class="dh-container">
-          <img src="https://via.placeholder.com/200x100" alt="marca comida">
+          <img src="img/marca3.png" alt="marca comida">
           <div class="dh-overlay">El patito cabizbajo!</div>
         </li>
-        <li class="dh-container">
-          <img src="https://via.placeholder.com/200x100" alt="marca comida">
+        <li class="dh-container has-own-bg">
+          <img src="img/marca1.jpg" alt="marca comida">
           <div class="dh-overlay">El patito cantor!</div>
         </li>
       </ul>

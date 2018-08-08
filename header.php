@@ -6,9 +6,10 @@
     <link rel="icon" href="ico.ico" type="image/x-icon">
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="css/main.css" type="text/css">
-    <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="vendor/slick/slick-theme.css"/>
-    <script async src='https://www.google.com/recaptcha/api.js'></script>
+    <?php if (isset($home)): ?>
+      <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css"/>
+      <link rel="stylesheet" type="text/css" href="vendor/slick/slick-theme.css"/>
+    <?php endif; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
 
@@ -29,7 +30,7 @@
         <li class="d-inline social px-3"><span class="fa fa-whatsapp"><span></li>
       </ul>
       <div class="delivery">
-        <h4 class="mb-0">Entregas de lunes a sábados.</h4>
+        <h4 class="mb-0">Ventas al por mayor. Entregas de lunes a sábados.</h4>
       </div>
     </div>
     <div class="header-bottom offset-1 col-11 row d-md-flex">
@@ -89,6 +90,7 @@
         <li class="list-item"><a href="contacto.php" class="menu-item d-inline-block text-uppercase">Contacto</a></li>
       </ul>
       <div class="mobile-delivery">
+        <h4 class="mb-0">Ventas al por mayor.</h4>
         <h4 class="mb-0">Entregas de lunes a sábados.</h4>
       </div>
     </div>

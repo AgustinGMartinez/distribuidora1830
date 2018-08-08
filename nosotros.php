@@ -14,7 +14,7 @@
     <div class="container">
       <div class="row">
         <figure class="img-container col-md-6 col-12">
-          <img src="http://via.placeholder.com/800x500" alt="distrubuidora 1830 deposito" class="w-100">
+          <img src="img/logo.png" alt="distrubuidora 1830 deposito" class="w-100">
         </figure>
         <div class="description col-md-6 col-12">
           <h3>Nuestra compañía</h3>

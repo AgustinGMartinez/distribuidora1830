@@ -140,7 +140,7 @@
 }
 
 .section-contact {
-  background-image: url('http://via.placeholder.com/1900x700');
+  background-image: url('../img/almacen.jpg');
   background-repeat: no-repeat;
   height: 700px;
   background-size: cover;
@@ -333,10 +333,6 @@
     padding: 3rem 0 3rem 0;
   }
 
-  @include dfScreens {
-    padding: 0 0 3rem 0;
-  }
-
   .img-container {
     padding: 0 5rem 0 0;
 
@@ -352,10 +348,11 @@
   .description {
 
     h3 {
-      margin: 2rem 0;
+      margin: 0 0 2rem;
 
       @include smScreens {
         text-align: center;
+          margin: 2rem 0;
       }
     }
 
@@ -461,24 +458,24 @@
       justify-content: space-around;
     }
 
-    @include dfScreens {
-      justify-content: flex-start;
-    }
-
     li.dh-container {
       position: relative;
       overflow: hidden;
-      flex: 1;
+      height: 150px;
       min-width: 10rem;
       margin: 0 1rem 0 0;
 
+      &:not(.has-own-bg) {
+        // background-color: #ffffff;
+      }
+
       @include mdScreens {
         max-width: 100px;
-          margin: 0;
+        margin: 0;
       }
 
       @include dfScreens {
-        max-width: initial;
+        justify-content: space-around;
       }
 
       &:last-of-type {
@@ -486,7 +483,11 @@
       }
 
       img {
-        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        width: 150px;
       }
 
       .dh-overlay {

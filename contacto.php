@@ -23,7 +23,7 @@
         </div>
         <div class="contact-right col-lg-9">
           <h3>Formulario de contacto</h3>
-          <p class="phrase">We love to listen and we are eagerly waiting to talk to you regarding your project. Get in touch with us if you have any queries and we will get back to you as soon as possible.</p>
+          <p class="phrase">En distribuidora 1830 nos destacamos por nuestro excelente servicio y atención personalizada. Contactá con nosotros a toda hora. Estamos siempre para servirte.</p>
           <form method="post" id="contact-form" class="row">
             <div class="col-md-6"><input name="name" id="name" type="text" class="w-100" required placeholder="Tu nombre..."></div>
             <div class="col-md-6"><input name="subject" id="subject" type="text" class="w-100" required placeholder="Asunto..."></div>
