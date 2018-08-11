@@ -6,10 +6,10 @@
           <h3>La empresa</h3>
         </div>
         <div class="footer-logo col12">
-          <img class="h-100" src="img/logo.png" alt="distribuidora 1830 logo">
+          <img class="h-100" src="img/logo.svg" alt="distribuidora 1830 logo">
         </div>
         <p class="footer-description">
-          Distribuidora 1830 ofrece un servicio de soluciones logísticas y de comercialización de productos para la industria gastronómica. Ofrecemos un servicio con calidad de excelencia para todos nuestros clientes.
+          Distribuidora 1830 ofrece un servicio de soluciones logísticas y de comercialización de productos para la industria gastronómica. Brindamos un servicio con calidad de excelencia para todos nuestros clientes.
         </p>
         <ul class="footer-social">
           <li class="d-inline social px-3"><span class="fa fa-facebook"><span></li>
@@ -45,7 +45,7 @@
 
     <div class="footer-copyright row">
       <div class="love container col-sm-4">
-        <p class="">Hecho con amor <span class="fa-heart"></span> por <a href="http://www.serviwebdigital.com">ServiwebDigital.com</a></p>
+        <p class="">Diseñado con pasión por <a href="http://www.serviwebdigital.com">ServiwebDigital.com</a></p>
       </div>
       <div class="rights container offset-sm-2 col-sm-6">
         <p class="float-sm-right">© Copyright <?php echo date("Y") ?> Distribuidora 1830. Todos los derechos reservados.</p>

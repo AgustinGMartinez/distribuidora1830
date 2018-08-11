@@ -27,7 +27,7 @@ $(document).ready(function(){
       infinite: true,
       autoplay: true,
       autoplaySpeed: 3000,
-      arrows: true,
+      arrows: false,
       responsive: [
       {
         breakpoint: 800,

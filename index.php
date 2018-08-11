@@ -14,7 +14,7 @@
       <div class="row">
         <div class="promo col-md-4">
           <div class="img-container">
-            <img src="img/gondola.jpg" alt="servicio precios catalogo 1830">
+            <img src="img/productos-gastronomicos.jpg" alt="servicio precios catalogo 1830">
           </div>
           <h1 class="title my-4">Productos gastrónomicos</h1>
           <p class="description text-muted">Comercializamos y distribuimos alimentos secos, refrigerados y congelados para establecimientos gastronómicos.
@@ -75,7 +75,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 img-container">
-          <img src="img/logo.png" alt="distribuidora">
+          <img src="img/logo.svg" alt="distribuidora">
         </div>
         <div class="col-md-6 description">
           <h3>¿Por qué elegirnos?</h3>

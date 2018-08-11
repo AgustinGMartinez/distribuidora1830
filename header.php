@@ -18,7 +18,7 @@
   <div class="header-left col-5 col-sm-3 row p-0 d-flex">
     <figure class="col-8 offset-3 col-sm-6 offset-sm-6 p-0 my-auto">
       <a href="index.php">
-        <img class="w-100" src="img/logo.png" alt="1830 logo">
+        <img class="w-100" src="img/logo.svg" alt="1830 logo">
       </a>
     </figure>
   </div>

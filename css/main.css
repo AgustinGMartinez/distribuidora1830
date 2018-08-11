@@ -54,6 +54,10 @@
       .header-left:after {
         border-width: 3rem 2rem 3rem 2rem;
         right: -4rem; } }
+  .header-left img {
+    width: 80% !important;
+    display: block;
+    margin: auto; }
 
 .header-top {
   border-bottom: 1px solid #dddddd;
@@ -664,7 +668,8 @@ footer .information-links a::before {
       overflow: hidden;
       height: 150px;
       min-width: 10rem;
-      margin: 0 1rem 0 0; }
+      margin: 0 1rem 0 0;
+      flex: 1; }
       @media only screen and (max-width: 1200px) {
         .section-clients ul li.dh-container {
           max-width: 100px;
@@ -818,12 +823,22 @@ footer .information-links a::before {
         transform: rotateX(360deg);
         transition: transform 0.4s linear; }
       .products-page .products-catalog-body .product .img-container {
-        position: relative; }
+        position: relative;
+        height: 260px;
+        width: 100%;
+        display: block;
+        display: flex; }
+        .products-page .products-catalog-body .product .img-container img {
+          max-width: 100%;
+          max-height: 100%;
+          display: block;
+          margin: auto; }
         .products-page .products-catalog-body .product .img-container .price {
           position: absolute;
           bottom: 0;
           right: 0;
-          font-style: italic; }
+          font-style: italic;
+          background-color: #ffffff; }
       .products-page .products-catalog-body .product h3 {
         margin-top: 0.5rem; }
 
