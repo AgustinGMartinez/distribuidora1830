@@ -48,7 +48,7 @@
         <div class="contact-showcase-distance d-inline-block col-sm-4 my-auto d-md-flex">
           <span class="fa fa-phone col-md-2"></span>
           <div class="info pl-3">
-            <p class="text-dark text-monospace font-weight-bold m-0"><a href="tel:+541122895991"> +54 (11) 2289 5991</a></p>
+            <p class="text-dark text-monospace font-weight-bold m-0"><a href="tel:+541149262836"> +54 (11) 4926 2836</a></p>
             <p class="text-muted m-0 font-weight-bold"><a href="mailto:ventas1830@gmail.com">ventas1830@gmail.com</a></p>
           </div>
         </div>

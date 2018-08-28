@@ -16,10 +16,11 @@
         <div class="contact-left col-lg-3">
           <h3>Contacto</h3>
           <p><span class="fa fa-map-marker"></span> 33 orientales 1828, Boedo, CABA.</p>
-          <p><span class="fa fa-phone"></span><a href="tel:+541122895991"> +54 (11) 2289 5991</a></p>
+          <p><span class="fa fa-phone"></span><a href="tel:+541149262836"> +54 (11) 4926 2836</a></p>
           <p><span class="fa fa-envelope"></span><a href="mailto:ventas1830@gmail.com">ventas1830@gmail.com</a> </p>
           <p><span class="fa fa-envelope"></span><a href="mailto:pedidos1830@gmail.com">pedidos1830@gmail.com</a> </p>
-          <p><span class="fa fa-clock-o"></span> Lun - Sab: 8AM - 8PM </p>
+          <p><span class="fa fa-clock-o"></span> Lun - Vie: 9AM - 5PM, </p>
+          <p><span class="fa fa-clock-o"></span> Sab: 9AM - 1PM </p>
         </div>
         <div class="contact-right col-lg-9">
           <h3>Formulario de contacto</h3>

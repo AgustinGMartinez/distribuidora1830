@@ -26,7 +26,7 @@ if ($message !== "" && $email !== "") {
 
 	// Set the recipient email address.
   // Type here your email id for receive email.
-  $email_to = "agustin.gervasio.martinez@gmail.com";
+  $email_to = "helper@distribuidora1830.com";
 
   // Set the email subject.
   $email_subject = "Contacto desde la página web 1830";

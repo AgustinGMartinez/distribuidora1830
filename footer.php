@@ -33,11 +33,12 @@
           <h3>Oficinas</h3>
         </div>
         <div class="office-body"><div class="office">
-          <p><span class="fa fa-map-marker"></span> 33 orientales 1828, Boedo, CABA.</p>
-          <p><span class="fa fa-phone"></span><a href="tel:+541122895991"> +54 (11) 2289 5991</a></p>
+          <address><p><span class="fa fa-map-marker"></span> 33 orientales 1828, Boedo, CABA.</p></address>
+          <p><span class="fa fa-phone"></span><a href="tel:+541149262836"> +54 (11) 4926 2836</a></p>
           <p><span class="fa fa-envelope"></span><a href="mailto:ventas1830@gmail.com">ventas1830@gmail.com</a> </p>
           <p><a href="mailto:pedidos1830@gmail.com">pedidos1830@gmail.com</a> </p>
-          <p><span class="fa fa-clock-o"></span> Lun - Sab: 8AM - 8PM </p>
+          <p><span class="fa fa-clock-o"></span> Lun - Vie: 9AM - 5PM, </p>
+          <p>Sab: 9AM - 1PM </p>
           </div>
         </div>
       </div>
@@ -45,10 +46,10 @@
 
     <div class="footer-copyright row">
       <div class="love container col-sm-4">
-        <p class="">Diseñado con pasión por <a href="http://www.serviwebdigital.com">ServiwebDigital.com</a></p>
+        <p class="">Diseñado con cariños por <a href="http://www.serviwebdigital.com">ServiwebDigital.com</a></p>
       </div>
       <div class="rights container offset-sm-2 col-sm-6">
-        <p class="float-sm-right">© Copyright <?php echo date("Y") ?> Distribuidora 1830. Todos los derechos reservados.</p>
+        <p class="float-sm-right">&copy; Copyright <?php echo date("Y") ?> Distribuidora 1830. Todos los derechos reservados.</p>
       </div>
     </div>
   </div>

@@ -25,7 +25,7 @@
             <img src="img/descuento.jpg" alt="servicio precios catalogo 1830">
           </div>
           <h3 class="title my-4">Catálogo</h3>
-          <p class="description text-muted">Conocé y aprovechá nuestro catálogo de ofertas semanales. No te pierdas ninguna de nuestras promociones con importantes descuentos.
+          <p class="description text-muted">Conocé y aprovechá nuestro catálogo de ofertas. No te pierdas ninguna de nuestras promociones con importantes descuentos.
           </p>
           <a href="productos.php" class="btn p-0">
             <button class="btn link gray">Ver catálogo</button>
@@ -37,10 +37,10 @@
           <div class="img-container">
             <img src="img/bussiness.jpg" alt="servicio precios catalogo 1830">
           </div>
-          <h3 class="title my-4">Lista de precios</h3>
-          <p class="description text-muted">Consultá nuestros precios siempre que quieras, para que nunca te pierdas de ninguna de las ofertas te ofrecemos. Nuestros precios son accesibles.
+          <h3 class="title my-4">Lista de productos</h3>
+          <p class="description text-muted">Consultá nuestros productos siempre que quieras, para que nunca te pierdas de ninguna de las ofertas te ofrecemos. Nuestros precios son accesibles.
           </p>
-          <a href="lista.xlsx" class="btn p-0" download="Lista de precios 1830 <?php echo date('d-m-Y') ?>">
+          <a href="lista.xlsx" class="btn p-0" download="Lista de productos 1830 <?php echo date('d-m-Y') ?>">
             <button class="btn link gray">Descargar <span class="fa fa-download"></span></button>
             <button class="btn link red">Descargar <span class="fa fa-download"></span></button>
             <button class="btn link fake">Descargar <span class="fa fa-download"></span></button>
@@ -93,31 +93,31 @@
 
   <div class="section-clients">
     <div class="container text-center">
-      <h2>Nuestros clientes</h2>
+      <h2>Algunos de nuestros clientes</h2>
       <ul class="row">
         <li class="dh-container has-own-bg">
           <img src="img/marca1.jpg" alt="marca comida">
-          <div class="dh-overlay">El patito feo!</div>
+          <!-- <div class="dh-overlay">El patito feo!</div> -->
         </li>
-        <li class="dh-container">
+        <li class="dh-container" style="background: white;">
           <img src="img/marca2.jpg" alt="marca comida">
-          <div class="dh-overlay">El patito lindo!</div>
+          <!-- <div class="dh-overlay">El patito lindo!</div> -->
         </li>
         <li class="dh-container">
           <img src="img/marca3.png" alt="marca comida">
-          <div class="dh-overlay">El patito raro!</div>
+          <!-- <div class="dh-overlay">El patito raro!</div> -->
         </li>
         <li class="dh-container">
-          <img src="img/marca2.jpg" alt="marca comida">
-          <div class="dh-overlay">El patito quejumbroso!</div>
+          <img src="img/marca4.png" alt="marca comida">
+          <!-- <div class="dh-overlay">El patito quejumbroso!</div> -->
         </li>
         <li class="dh-container">
-          <img src="img/marca3.png" alt="marca comida">
-          <div class="dh-overlay">El patito cabizbajo!</div>
+          <img src="img/marca7.jpg" alt="marca comida">
+          <!-- <div class="dh-overlay">El patito cabizbajo!</div> -->
         </li>
         <li class="dh-container has-own-bg">
-          <img src="img/marca1.jpg" alt="marca comida">
-          <div class="dh-overlay">El patito cantor!</div>
+          <img src="img/marca8.jpg" alt="marca comida">
+          <!-- <div class="dh-overlay">El patito cantor!</div> -->
         </li>
       </ul>
     </div>
