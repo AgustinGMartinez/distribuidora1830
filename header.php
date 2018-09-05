@@ -6,7 +6,7 @@
     <link rel="icon" href="ico.ico" type="image/x-icon">
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="css/main.css" type="text/css">
-    <?php if (isset($home)): ?>
+    <?php if (isset($home) || isset($productos)): ?>
       <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css"/>
       <link rel="stylesheet" type="text/css" href="vendor/slick/slick-theme.css"/>
     <?php endif; ?>
@@ -18,7 +18,7 @@
   <div class="header-left col-5 col-sm-3 row p-0 d-flex">
     <figure class="col-8 offset-3 col-sm-6 offset-sm-6 p-0 my-auto">
       <a href="index.php">
-        <img class="w-100" src="img/logo.svg" alt="1830 logo">
+        <img class="w-100" src="img/logo.svg" alt="distribuidora 1830 logo">
       </a>
     </figure>
   </div>

@@ -1,20 +1,21 @@
 <?php $home = true; ?>
 <?php require('header.php'); ?>
 <main class="index">
-  <div class="section-slider">
+  <section class="section-slider">
     <ul class="slider" id="carousel">
-      <li class="slide"><img src="img/s4.jpg" alt="promocion 1830"></li>
-      <li class="slide"><img src="img/s2.jpg" alt="promocion 1830"></li>
-      <li class="slide"><img src="img/s1.jpg" alt="promocion 1830"></li>
+      <li class="slide"><img src="img/s5.jpg" alt="quesos vinos jamones pastas tomates verduras pasas"></li>
+      <li class="slide"><img src="img/s4.jpg" alt="quesos"></li>
+      <li class="slide"><img src="img/s2.jpg" alt="logistica distribucion"></li>
+      <li class="slide"><img src="img/s1.jpg" alt="almacen deposito distribucion"></li>
     </ul>
-  </div>
+  </section>
 
-  <div class="section-promotion">
+  <section class="section-promotion">
     <div class="container">
       <div class="row">
         <div class="promo col-md-4">
           <div class="img-container">
-            <img src="img/productos-gastronomicos.jpg" alt="servicio precios catalogo 1830">
+            <img src="img/productos-gastronomicos.jpg" alt="gastronomico comida jamon queso vino fiambres pan">
           </div>
           <h1 class="title my-4">Productos gastrónomicos</h1>
           <p class="description text-muted">Comercializamos y distribuimos alimentos secos, refrigerados y congelados para establecimientos gastronómicos.
@@ -22,7 +23,7 @@
         </div>
         <div class="promo col-md-4">
           <div class="img-container">
-            <img src="img/descuento.jpg" alt="servicio precios catalogo 1830">
+            <img src="img/catalogo.jpg" alt="catalogo productos destacados gastronómicos">
           </div>
           <h3 class="title my-4">Catálogo</h3>
           <p class="description text-muted">Conocé y aprovechá nuestro catálogo de ofertas. No te pierdas ninguna de nuestras promociones con importantes descuentos.
@@ -35,7 +36,7 @@
         </div>
         <div class="promo col-md-4">
           <div class="img-container">
-            <img src="img/bussiness.jpg" alt="servicio precios catalogo 1830">
+            <img src="img/bussiness.jpg" alt="precios lista productos">
           </div>
           <h3 class="title my-4">Lista de productos</h3>
           <p class="description text-muted">Consultá nuestros productos siempre que quieras, para que nunca te pierdas de ninguna de las ofertas te ofrecemos. Nuestros precios son accesibles.
@@ -48,9 +49,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="section-contact">
+  <section class="section-contact">
     <div class="contact-blue-bg"></div>
     <div class="container">
       <div class="row">
@@ -64,18 +65,18 @@
             <div class="col-md-6"><input name="phone" id="phone" type="text" class="w-100" placeholder="Teléfono... (opcional)"></div>
             <textarea name="message" id="message" rows="4" class="col-12" placeholder="Mensaje..."></textarea>
             <button id="submitContactForm" class="btn mx-auto">Enviar</button>
-            <button id="sendingFormSpinner" class="btn mx-auto" style="display: none !important;"><img src="img/spinner.gif" alt="spinner cargando gif" width="20px"> Enviando...</button>
+            <button id="sendingFormSpinner" class="btn mx-auto" style="display: none !important;"><img src="img/spinner.gif" alt="spinner preloader cargando gif" width="20px"> Enviando...</button>
           </form>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="section-us">
+  <section class="section-us">
     <div class="container">
       <div class="row">
         <div class="col-md-6 img-container">
-          <img src="img/logo.svg" alt="distribuidora">
+          <img src="img/logo.svg" alt="distribuidora 1830 logo">
         </div>
         <div class="col-md-6 description">
           <h3>¿Por qué elegirnos?</h3>
@@ -89,39 +90,39 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="section-clients">
+  <section class="section-clients">
     <div class="container text-center">
       <h2>Algunos de nuestros clientes</h2>
       <ul class="row">
         <li class="dh-container has-own-bg">
-          <img src="img/marca1.jpg" alt="marca comida">
+          <img src="img/marca1.jpg" alt="carlitos la nueva generacion lng">
           <!-- <div class="dh-overlay">El patito feo!</div> -->
         </li>
         <li class="dh-container" style="background: white;">
-          <img src="img/marca2.jpg" alt="marca comida">
+          <img src="img/marca2.jpg" alt="chiquin">
           <!-- <div class="dh-overlay">El patito lindo!</div> -->
         </li>
         <li class="dh-container">
-          <img src="img/marca3.png" alt="marca comida">
+          <img src="img/marca3.png" alt="colegio guadalupe">
           <!-- <div class="dh-overlay">El patito raro!</div> -->
         </li>
         <li class="dh-container">
-          <img src="img/marca4.png" alt="marca comida">
+          <img src="img/marca4.png" alt="pippo restaurante">
           <!-- <div class="dh-overlay">El patito quejumbroso!</div> -->
         </li>
         <li class="dh-container">
-          <img src="img/marca7.jpg" alt="marca comida">
+          <img src="img/marca7.jpg" alt="la faina pizza restaurante">
           <!-- <div class="dh-overlay">El patito cabizbajo!</div> -->
         </li>
         <li class="dh-container has-own-bg">
-          <img src="img/marca8.jpg" alt="marca comida">
+          <img src="img/marca8.jpg" alt="la farandula pizzas caseras">
           <!-- <div class="dh-overlay">El patito cantor!</div> -->
         </li>
       </ul>
     </div>
-  </div>
+  </section>
 </main>
 
 <script type="text/javascript">

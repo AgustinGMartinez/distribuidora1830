@@ -46,6 +46,59 @@ $(document).ready(function(){
     ]
     });
 
+    $('.carousel2').slick({
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 4000,
+      arrows: false,
+      slidesToShow: 5,
+      slidesToScroll: 3,
+      responsive: [
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          autoplaySpeed: 2500,
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      }
+    ]
+    });
+
+    $('.carousel3').slick({
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 4000,
+      arrows: false,
+      slidesToShow: 5,
+      slidesToScroll: 3,
+      rtl: true,
+      responsive: [
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          autoplaySpeed: 2500,
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      }
+    ]
+    });
+
     $('.dh-container').directionalHover({
     // CSS class for the overlay
     overlay: "dh-overlay",

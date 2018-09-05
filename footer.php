@@ -46,7 +46,7 @@
 
     <div class="footer-copyright row">
       <div class="love container col-sm-4">
-        <p class="">Diseñado con cariños por <a href="http://www.serviwebdigital.com">ServiwebDigital.com</a></p>
+        <p class="">Diseñado con cariños por <a href="https://www.serviwebdigital.com">ServiwebDigital.com</a></p>
       </div>
       <div class="rights container offset-sm-2 col-sm-6">
         <p class="float-sm-right">&copy; Copyright <?php echo date("Y") ?> Distribuidora 1830. Todos los derechos reservados.</p>
