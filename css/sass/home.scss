@@ -453,18 +453,16 @@
 
   ul {
     display: flex;
-
-    @include mdScreens {
-      justify-content: space-around;
-    }
+    flex-wrap: wrap;
+    justify-content: center;
 
     li.dh-container {
       position: relative;
       overflow: hidden;
       height: 150px;
       min-width: 10rem;
-      margin: 0 1rem 0 0;
-      flex: 1;
+      margin: 0 1rem 1rem 0;
+      //flex: 1;
 
       &:not(.has-own-bg) {
         // background-color: #ffffff;
@@ -472,7 +470,7 @@
 
       @include mdScreens {
         max-width: 100px;
-        margin: 0;
+        margin: 0 0 1rem 0;
       }
 
       @include dfScreens {

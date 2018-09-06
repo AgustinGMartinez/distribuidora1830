@@ -23,7 +23,7 @@
         </div>
         <div class="promo col-md-4">
           <div class="img-container">
-            <img src="img/catalogo.jpg" alt="catalogo productos destacados gastronómicos">
+            <img src="img/tazon.jpg" alt="catalogo productos destacados gastronómicos">
           </div>
           <h3 class="title my-4">Catálogo</h3>
           <p class="description text-muted">Conocé y aprovechá nuestro catálogo de ofertas. No te pierdas ninguna de nuestras promociones con importantes descuentos.
@@ -36,12 +36,12 @@
         </div>
         <div class="promo col-md-4">
           <div class="img-container">
-            <img src="img/bussiness.jpg" alt="precios lista productos">
+            <img src="img/lista.jpg" alt="precios lista productos">
           </div>
           <h3 class="title my-4">Lista de productos</h3>
           <p class="description text-muted">Consultá nuestros productos siempre que quieras, para que nunca te pierdas de ninguna de las ofertas te ofrecemos. Nuestros precios son accesibles.
           </p>
-          <a href="lista.xlsx" class="btn p-0" download="Lista de productos 1830 <?php echo date('d-m-Y') ?>">
+          <a href="lista.xls" class="btn p-0" download="Lista de productos 1830 <?php echo date('d-m-Y') ?>">
             <button class="btn link gray">Descargar <span class="fa fa-download"></span></button>
             <button class="btn link red">Descargar <span class="fa fa-download"></span></button>
             <button class="btn link fake">Descargar <span class="fa fa-download"></span></button>
@@ -76,7 +76,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 img-container">
-          <img src="img/logo.svg" alt="distribuidora 1830 logo">
+          <img src="img/apreton.jpg" alt="distribuidora 1830 logo">
         </div>
         <div class="col-md-6 description">
           <h3>¿Por qué elegirnos?</h3>
@@ -97,6 +97,10 @@
       <h2>Algunos de nuestros clientes</h2>
       <ul class="row">
         <li class="dh-container has-own-bg">
+          <img src="img/marca8.jpg" alt="la farandula pizzas caseras">
+          <!-- <div class="dh-overlay">El patito cantor!</div> -->
+        </li>
+        <li class="dh-container has-own-bg">
           <img src="img/marca1.jpg" alt="carlitos la nueva generacion lng">
           <!-- <div class="dh-overlay">El patito feo!</div> -->
         </li>
@@ -109,16 +113,20 @@
           <!-- <div class="dh-overlay">El patito raro!</div> -->
         </li>
         <li class="dh-container">
-          <img src="img/marca4.png" alt="pippo restaurante">
-          <!-- <div class="dh-overlay">El patito quejumbroso!</div> -->
+          <img src="img/marca9.jpg" alt="gran hotel panamericano logo">
+          <!-- <div class="dh-overlay">El patito cabizbajo!</div> -->
         </li>
         <li class="dh-container">
           <img src="img/marca7.jpg" alt="la faina pizza restaurante">
           <!-- <div class="dh-overlay">El patito cabizbajo!</div> -->
         </li>
-        <li class="dh-container has-own-bg">
-          <img src="img/marca8.jpg" alt="la farandula pizzas caseras">
-          <!-- <div class="dh-overlay">El patito cantor!</div> -->
+        <li class="dh-container">
+          <img src="img/marca4.png" alt="pippo restaurante">
+          <!-- <div class="dh-overlay">El patito quejumbroso!</div> -->
+        </li>
+        <li class="dh-container">
+          <img src="img/marca10.jpg" alt="different food company logo">
+          <!-- <div class="dh-overlay">El patito cabizbajo!</div> -->
         </li>
       </ul>
     </div>

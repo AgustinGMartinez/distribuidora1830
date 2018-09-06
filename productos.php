@@ -48,7 +48,7 @@
 
   <div class="products-download-section">
     <div class="container d-flex">
-      <a href="lista.xlsx" class="btn p-0 ml-auto d-inline-block" download="Lista de precios 1830 <?php echo date('d-m-Y') ?>">
+      <a href="lista.xls" class="btn p-0 ml-auto d-inline-block" download="Lista de precios 1830 <?php echo date('d-m-Y') ?>">
         <button class="btn link gray">Descargar lista de productos <span class="fa fa-download"></span></button>
         <button class="btn link red">Descargar lista de productos <span class="fa fa-download"></span></button>
         <button class="btn link fake">Descargar lista de productos <span class="fa fa-download"></span></button>
@@ -261,6 +261,27 @@
             <img class="w-100" src="img/CREMOSO.png" alt="QUESO CREMOSO CREMIGAL">
           </div>
           <h3>QUESO CREMOSO CREMIGAL</h3>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-12 col-md-4 product">
+          <div class="img-container">
+            <img class="w-100" src="img/fideos.jpg" alt="FIDEOS LUCHETTI">
+          </div>
+          <h3>FIDEOS LUCHETTI</h3>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-12 col-md-4 product">
+          <div class="img-container">
+            <img class="w-100" src="img/peras.jpg" alt="PERAS COPA DE ORO">
+          </div>
+          <h3>PERAS COPA DE ORO</h3>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-12 col-md-4 product">
+          <div class="img-container">
+            <img class="w-100" src="img/cheddar.png" alt="Queso cheddar untable la paulina">
+          </div>
+          <h3>QUESO CHEDDAR UNTABLE LA PAULINA</h3>
         </div>
 
       </div>
