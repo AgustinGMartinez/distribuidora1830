@@ -12,7 +12,7 @@
     <?php endif; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="<?php echo $desc; ?>"/>
-    <?php if (isset($home)) ?>
+    <?php if (isset($home)) : ?>
       <meta rel="canonical" href"https://distribuidora1830.com" />
     <?php endif; ?>
   </head>
@@ -31,7 +31,7 @@
       <ul class="m-0">
         <li class="d-inline social px-3"><span class="fa fa-facebook"><span></li>
         <li class="d-inline social px-3"><span class="fa fa-instagram"><span></li>
-        <li class="d-inline social px-3"><span class="fa fa-whatsapp"><span></li>
+        <li class="d-inline social px-3"><a style="color: inherit;" href="https://api.whatsapp.com/send?phone=541122666909"><span class="fa fa-whatsapp"><span></a></li>
       </ul>
       <div class="delivery">
         <h4 class="mb-0">Ventas al por mayor. Entregas de lunes a sábados.</h4>
