@@ -2,7 +2,7 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <title>Distribuidora 1830</title>
+    <title><?php echo $title; ?></title>
     <link rel="icon" href="ico.ico" type="image/x-icon">
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="css/main.css" type="text/css">
@@ -11,6 +11,10 @@
       <link rel="stylesheet" type="text/css" href="vendor/slick/slick-theme.css"/>
     <?php endif; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="<?php echo $desc; ?>"/>
+    <?php if (isset($home)) ?>
+      <meta rel="canonical" href"https://distribuidora1830.com" />
+    <?php endif; ?>
   </head>
 
 <body>
@@ -18,7 +22,7 @@
   <div class="header-left col-5 col-sm-3 row p-0 d-flex">
     <figure class="col-8 offset-3 col-sm-6 offset-sm-6 p-0 my-auto">
       <a href="index.php">
-        <img class="w-100" src="img/logo.svg" alt="distribuidora 1830 logo">
+        <img class="w-100" src="img/logo.svg" alt="distribuidora gastronómica 1830 logo">
       </a>
     </figure>
   </div>

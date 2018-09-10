@@ -1,3 +1,7 @@
+<?php
+$title = "Estate en contacto con nuestros vendedores de alimentos en Distribuidora Gastronómica 1830";
+$desc = "Conocé la distribuidora de alimentos y producots gastronómicos con el mejor servicio en calidad de CABA y Buenos Aires, Distribuidora Gastronómica 1830. Ponete en contacto con nosotros y asesorate en tus compras. Encontranos en Boedo, Capital Federal. Llamanos.";
+?>
 <?php require('header.php'); ?>
 <main class="contact-page">
   <div class="head">
@@ -32,7 +36,7 @@
             <div class="col-md-6"><input name="phone" id="phone" type="text" class="w-100" placeholder="Teléfono... (opcional)"></div>
             <textarea name="message" id="message" class="col-12" rows="4" placeholder="Mensaje..."></textarea>
             <button id="submitContactForm" class="btn">Enviar</button>
-            <button id="sendingFormSpinner" class="btn" style="display: none !important;"><img src="img/spinner.gif" alt="spinner cargando gif" width="20px"> Enviando...</button>
+            <button id="sendingFormSpinner" class="btn" style="display: none !important;"><img src="img/spinner.gif" alt="" width="20px"> Enviando...</button>
           </form>
         </div>
       </div>

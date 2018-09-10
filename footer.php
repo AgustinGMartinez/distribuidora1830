@@ -6,7 +6,7 @@
           <h3>La empresa</h3>
         </div>
         <div class="footer-logo col12">
-          <img class="h-100" src="img/logo.svg" alt="distribuidora 1830 logo">
+          <img class="h-100" src="img/logo.svg" alt="distribuidora gastronómica 1830 logo">
         </div>
         <p class="footer-description">
           Distribuidora 1830 ofrece un servicio de soluciones logísticas y de comercialización de productos para la industria gastronómica. Brindamos un servicio con calidad de excelencia para todos nuestros clientes.

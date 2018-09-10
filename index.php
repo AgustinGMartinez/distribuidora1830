@@ -1,12 +1,16 @@
-<?php $home = true; ?>
+<?php
+$home = true;
+$title = "Gastronomía de calidad con Distribuidora Gastronómica 1830";
+$desc = "¿Buscas una distribuidora gastronómica cuya prioridad sea llegar en tiempo y forma, y con capacidad para brindarte alimentos de variedad de marca? Probá Distribuidora 1830, conocé la calidad.";
+?>
 <?php require('header.php'); ?>
 <main class="index">
   <section class="section-slider">
     <ul class="slider" id="carousel">
-      <li class="slide"><img src="img/s5.jpg" alt="quesos vinos jamones pastas tomates verduras pasas"></li>
-      <li class="slide"><img src="img/s4.jpg" alt="quesos"></li>
-      <li class="slide"><img src="img/s2.jpg" alt="logistica distribucion"></li>
-      <li class="slide"><img src="img/s1.jpg" alt="almacen deposito distribucion"></li>
+      <li class="slide"><img src="img/s5.jpg" alt="quesos vinos jamones pastas tomates verduras pasas grastonómica"></li>
+      <li class="slide"><img src="img/s4.jpg" alt="quesos grastonómica"></li>
+      <li class="slide"><img src="img/s2.jpg" alt="logistica distribuidora"></li>
+      <li class="slide"><img src="img/s1.jpg" alt="almacen deposito distribuidora"></li>
     </ul>
   </section>
 
@@ -15,7 +19,7 @@
       <div class="row">
         <div class="promo col-md-4">
           <div class="img-container">
-            <img src="img/productos-gastronomicos.jpg" alt="gastronomico comida jamon queso vino fiambres pan">
+            <img src="img/productos-gastronomicos.jpg" alt="gastronómica comida jamon queso vino fiambres pan">
           </div>
           <h1 class="title my-4">Productos gastrónomicos</h1>
           <p class="description text-muted">Comercializamos y distribuimos alimentos secos, refrigerados y congelados para establecimientos gastronómicos.
@@ -23,7 +27,7 @@
         </div>
         <div class="promo col-md-4">
           <div class="img-container">
-            <img src="img/tazon.jpg" alt="catalogo productos destacados gastronómicos">
+            <img src="img/tazon.jpg" alt="catalogo productos destacados comida gastronómica">
           </div>
           <h3 class="title my-4">Catálogo</h3>
           <p class="description text-muted">Conocé y aprovechá nuestro catálogo de ofertas. No te pierdas ninguna de nuestras promociones con importantes descuentos.
@@ -36,7 +40,7 @@
         </div>
         <div class="promo col-md-4">
           <div class="img-container">
-            <img src="img/lista.jpg" alt="precios lista productos">
+            <img src="img/lista.jpg" alt="precios lista productos distribuidora gastronómica">
           </div>
           <h3 class="title my-4">Lista de productos</h3>
           <p class="description text-muted">Consultá nuestros productos siempre que quieras, para que nunca te pierdas de ninguna de las ofertas te ofrecemos. Nuestros precios son accesibles.
@@ -76,7 +80,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 img-container">
-          <img src="img/apreton.jpg" alt="distribuidora 1830 logo">
+          <img src="img/apreton.jpg" alt="distribuidora gastronómica 1830 empresa">
         </div>
         <div class="col-md-6 description">
           <h3>¿Por qué elegirnos?</h3>
@@ -97,35 +101,35 @@
       <h2>Algunos de nuestros clientes</h2>
       <ul class="row">
         <li class="dh-container has-own-bg">
-          <img src="img/marca8.jpg" alt="la farandula pizzas caseras">
+          <img src="img/marca8.jpg" alt="la farandula pizzas caseras gastronomía logo">
           <!-- <div class="dh-overlay">El patito cantor!</div> -->
         </li>
         <li class="dh-container has-own-bg">
-          <img src="img/marca1.jpg" alt="carlitos la nueva generacion lng">
+          <img src="img/marca1.jpg" alt="carlitos la nueva generacion lng gastronomía logo">
           <!-- <div class="dh-overlay">El patito feo!</div> -->
         </li>
         <li class="dh-container" style="background: white;">
-          <img src="img/marca2.jpg" alt="chiquin">
+          <img src="img/marca2.jpg" alt="chiquin gastronomía logo">
           <!-- <div class="dh-overlay">El patito lindo!</div> -->
         </li>
         <li class="dh-container">
-          <img src="img/marca3.png" alt="colegio guadalupe">
+          <img src="img/marca3.png" alt="colegio guadalupe gastronomía logo">
           <!-- <div class="dh-overlay">El patito raro!</div> -->
         </li>
         <li class="dh-container">
-          <img src="img/marca9.jpg" alt="gran hotel panamericano logo">
+          <img src="img/marca9.jpg" alt="gran hotel panamericano logo gastronomía">
           <!-- <div class="dh-overlay">El patito cabizbajo!</div> -->
         </li>
         <li class="dh-container">
-          <img src="img/marca7.jpg" alt="la faina pizza restaurante">
+          <img src="img/marca7.jpg" alt="la faina pizza restaurante gastronomía logo">
           <!-- <div class="dh-overlay">El patito cabizbajo!</div> -->
         </li>
         <li class="dh-container">
-          <img src="img/marca4.png" alt="pippo restaurante">
+          <img src="img/marca4.png" alt="pippo restaurante gastronomía logo">
           <!-- <div class="dh-overlay">El patito quejumbroso!</div> -->
         </li>
         <li class="dh-container">
-          <img src="img/marca10.jpg" alt="different food company logo">
+          <img src="img/marca10.jpg" alt="different food company logo gastronomía">
           <!-- <div class="dh-overlay">El patito cabizbajo!</div> -->
         </li>
       </ul>

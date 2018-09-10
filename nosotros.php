@@ -1,3 +1,7 @@
+<?php
+$title = "Conocé la mejor Distribuidora en productos Gastronómicos, 1830";
+$desc = "Somos una distrubuidora de alimentos y productos gastronómicos radicada en Boedo, Capital Federal. Nuestro éxito se basa en nuestra calidad de servicio de distribución. Nos adaptamos a las necesidades de cada cliente y a la entrega de productos en tiempo y forma. Ese es el motor de nuestra calidad como distribuidora alimenticia.";
+?>
 <?php require('header.php'); ?>
 <main class="us-page">
   <div class="head">
@@ -14,7 +18,7 @@
     <div class="container">
       <div class="row">
         <figure class="img-container col-md-6 col-12">
-          <img src="img/apreton.jpg" alt="distrubuidora 1830 deposito" class="w-100">
+          <img src="img/apreton.jpg" alt="distrubuidora gastronómica 1830 depósito" class="w-100">
         </figure>
         <div class="description col-md-6 col-12">
           <h3>Nuestra compañía</h3>
@@ -34,4 +38,4 @@
 <script type="text/javascript">
   var pageName = "nosotros.php";
 </script>
-<?php require("footer.php"); ?>
+<?php require("footer.php");
