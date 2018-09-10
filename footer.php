@@ -57,11 +57,10 @@
     <div class="red col-md-5 col-10"></div>
   </div>
 </footer>
-
 </div>
 <!-- Ends wrapper -->
 
-</body>
+<!-- SCRIPTS -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/functions.js"></script>
@@ -70,4 +69,16 @@
 <script src="vendor/jquery-directional-hover/jquery.directional-hover.min.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" async defer></script>
 <script type="text/javascript" src="js/main.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116370997-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-116370997-5');
+</script>
+
+</body>
 </html>
