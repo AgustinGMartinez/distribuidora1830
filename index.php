@@ -45,7 +45,7 @@ $desc = "¿Buscas una distribuidora gastronómica cuya prioridad sea llegar en t
           <h3 class="title my-4">Lista de productos</h3>
           <p class="description text-muted">Consultá nuestros productos siempre que quieras, para que nunca te pierdas de ninguna de las ofertas te ofrecemos. Nuestros precios son accesibles.
           </p>
-          <a href="lista.xls" class="btn p-0" download="Lista de productos 1830 <?php echo date('d-m-Y') ?>">
+          <a href="lista.pdf" class="btn p-0" download="Lista de productos 1830 <?php echo date('d-m-Y') ?>">
             <button class="btn link gray">Descargar <span class="fa fa-download"></span></button>
             <button class="btn link red">Descargar <span class="fa fa-download"></span></button>
             <button class="btn link fake">Descargar <span class="fa fa-download"></span></button>

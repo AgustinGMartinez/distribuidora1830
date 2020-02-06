@@ -21,8 +21,8 @@ $desc = "Conocé la distribuidora de alimentos y producots gastronómicos con el
           <h3>Contacto</h3>
           <p><span class="fa fa-map-marker"></span> 33 orientales 1828, Boedo, CABA.</p>
           <p><span class="fa fa-phone"></span><a href="tel:+541149262836"> +54 (11) 4926 2836</a></p>
-          <p><span class="fa fa-envelope"></span><a href="mailto:ventas1830@gmail.com">ventas1830@gmail.com</a> </p>
           <p><span class="fa fa-envelope"></span><a href="mailto:pedidos1830@gmail.com">pedidos1830@gmail.com</a> </p>
+          <p><span class="fa fa-envelope"></span><a href="mailto:ventas1830@gmail.com">ventas1830@gmail.com</a> </p>
           <p><span class="fa fa-clock-o"></span> Lun - Vie: 9AM - 5PM, </p>
           <p><span class="fa fa-clock-o"></span> Sab: 9AM - 1PM </p>
         </div>
