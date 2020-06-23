@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="<?php echo $desc; ?>"/>
     <?php if (isset($home)) : ?>
-      <meta rel="canonical" href"https://distribuidora1830.com" />
+      <meta rel="canonical" href="https://distribuidora1830.com" />
     <?php endif; ?>
   </head>
 
@@ -21,7 +21,7 @@
 <header class="header row">
   <div class="header-left col-5 col-sm-3 row p-0 d-flex">
     <figure class="col-8 offset-3 col-sm-6 offset-sm-6 p-0 my-auto">
-      <a href="index.php">
+      <a href="index.html">
         <img class="w-100" src="img/logo.svg" alt="distribuidora gastronómica 1830 logo">
       </a>
     </figure>
@@ -77,10 +77,10 @@
   <nav class="row w-100">
     <ul class="menu col-12 mb-0">
       <div class="container">
-        <a href="index.php" class="menu-item d-inline-block text-uppercase">Inicio</a>
-        <a href="nosotros.php" class="menu-item d-inline-block text-uppercase">Nosotros</a>
-        <a href="productos.php" class="menu-item d-inline-block text-uppercase">Productos</a>
-        <a href="contacto.php" class="menu-item d-inline-block text-uppercase">Contacto</a>
+        <a href="index.html" class="menu-item d-inline-block text-uppercase">Inicio</a>
+        <a href="nosotros.html" class="menu-item d-inline-block text-uppercase">Nosotros</a>
+        <a href="productos.html" class="menu-item d-inline-block text-uppercase">Productos</a>
+        <a href="contacto.html" class="menu-item d-inline-block text-uppercase">Contacto</a>
       </div>
     </ul>
   </nav>
@@ -88,10 +88,10 @@
   <div class="menu-mobile-dropdown">
     <div class="container p-0">
       <ul class="list">
-        <li class="list-item"><a href="index.php" class="menu-item d-inline-block text-uppercase">Inicio</a></li>
-        <li class="list-item"><a href="nosotros.php" class="menu-item d-inline-block text-uppercase">Nosotros</a></li>
-        <li class="list-item"><a href="productos.php" class="menu-item d-inline-block text-uppercase">Productos</a></li>
-        <li class="list-item"><a href="contacto.php" class="menu-item d-inline-block text-uppercase">Contacto</a></li>
+        <li class="list-item"><a href="index.html" class="menu-item d-inline-block text-uppercase">Inicio</a></li>
+        <li class="list-item"><a href="nosotros.html" class="menu-item d-inline-block text-uppercase">Nosotros</a></li>
+        <li class="list-item"><a href="productos.html" class="menu-item d-inline-block text-uppercase">Productos</a></li>
+        <li class="list-item"><a href="contacto.html" class="menu-item d-inline-block text-uppercase">Contacto</a></li>
       </ul>
       <div class="mobile-delivery">
         <h4 class="mb-0">Ventas al por mayor.</h4>

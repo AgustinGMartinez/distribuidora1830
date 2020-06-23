@@ -22,10 +22,10 @@
           <h3>Información</h3>
         </div>
         <ul class="information-links">
-          <li><a class="mt-0" href="index.php">Inicio</a></li>
-          <li><a href="nosotros.php">Nosotros</a></li>
-          <li><a href="productos.php">Productos</a></li>
-          <li><a href="contacto.php">Contacto</a></li>
+          <li><a class="mt-0" href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
         </ul>
       </div>
       <div class="col-md-4 section container">
@@ -49,7 +49,7 @@
         <p class="">Diseñado con cariños por <a href="https://www.serviwebdigital.com">ServiwebDigital.com</a></p>
       </div>
       <div class="rights container offset-sm-2 col-sm-6">
-        <p class="float-sm-right">&copy; Copyright <?php echo date("Y") ?> Distribuidora 1830. Todos los derechos reservados.</p>
+        <p class="float-sm-right">&copy; Copyright 2021 Distribuidora 1830. Todos los derechos reservados.</p>
       </div>
     </div>
   </div>
