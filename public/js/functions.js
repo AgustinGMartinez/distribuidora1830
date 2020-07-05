@@ -30,7 +30,7 @@ function submitContactForm(e) {
   }
 
   function sendContactForm(data) {
-    fetch("/mail", {
+    fetch("https://us-central1-distribuidora1830-8141d.cloudfunctions.net/mail", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
