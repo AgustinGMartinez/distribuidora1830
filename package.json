@@ -1,0 +1,20 @@
+{
+  "name": "distribuidora1830",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "functions": "cd functions/ && yarn build && cd .. && firebase serve --only functions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgustinGMartinez/distribuidora1830.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgustinGMartinez/distribuidora1830/issues"
+  },
+  "homepage": "https://github.com/AgustinGMartinez/distribuidora1830#readme"
+}

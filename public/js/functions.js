@@ -30,7 +30,7 @@ function submitContactForm(e) {
   }
 
   function sendContactForm(data) {
-    fetch("https://us-central1-distribuidora1830-8141d.cloudfunctions.net/mail", {
+    fetch("http://localhost:5000/distribuidora1830-8141d/us-central1/mail", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -67,7 +67,7 @@ function submitContactForm(e) {
         },
         (err) => {
           handleError(err)
-          console.log("Check PHP")
+          console.log("Check backend")
         }
       )
   }
